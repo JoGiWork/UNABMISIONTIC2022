@@ -4,18 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloslogin.css">
-    <title>Document</title>
+
+
+    <!--JAVASCRIPT-->
+    <script src="/css/js.js/js.js"></script>
+    <!--FONTS-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    
+    <!--STYLES-->
+
+    <!-- <link rel="stylesheet" href="css/normalyze.css"> -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>RedZaphiro</title>
 </head>
 <body>
-    <section class="fondo">
-        <form action="">
-            <label for="usuario" class="input">Usuario</label>
-            <input type="text" placeholder="USUARIO">
-            <label for="contrasena" class="input">Contraseña</label>
-            <input type="text">
-            <button type="submit" class="login">LOGIN</button>
-        </form>
-    </section>
+
+    <main>
+        <div class="padre">
+        
+            <div class="hijo1">
+
+                <h1 class="titulo__regular">Haz realidad tus<br> sueños en<br> <span class="titulo__bold">RedZaphiro</span></h1>
+
+                <div class="div__parrafo">
+                    <p class="parrafo__titulo">Mediante el aprendizaje continuo<br> adquieres mayor conocimiento<br> ¿Que esperas para aprender?</p>
+                </div>
+
+                <div class="contendor__register">
+                    <a class="button__register" href="#">REGISTRARME</a>
+                </div>
+
+            </div>
+
+            <div  class="hijo">
+
+                <div class="icon-container">
+                    <svg class="icon1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.42 113.62"><defs><style>.cls-1{fill:#FFF;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M43.21,55.57c12.63,0,22.87-12.44,22.87-27.79S62.72,0,43.21,0,20.33,12.44,20.33,27.78,30.58,55.57,43.21,55.57Z"/><path class="cls-1" d="M0,98Z"/><path class="cls-1" d="M86.41,98.72c0-.26,0-1.78,0,0Z"/><path class="cls-1" d="M86.36,96.86c-.42-26.73-3.91-34.34-30.63-39.16,0,0-3.76,4.79-12.52,4.79S30.68,57.7,30.68,57.7C4.26,62.47.56,70,.07,96,0,98.12,0,98.23,0,98c0,.46,0,1.31,0,2.8,0,0,6.36,12.83,43.2,12.83s43.2-12.83,43.2-12.83V98.72A16.87,16.87,0,0,1,86.36,96.86Z"/></g></g></svg>
+                </div>
+                    
+                <div class="login__cuadro">
+                    <form class="forms__login">
+                        <fieldset class="fieldset__login" >
+                            <div class="fieldset__input">
+                                    <!--<img src="img/Recurso 13.jpg" class="img__login">-->
+                                <input class="input__text" id="usuario" type="text" placeholder="USUARIO" required>
+                            </div>
+
+                            <div class="fieldset__input">
+                                    <!--<img src="img/Recurso 12.jpg" class="img__login">-->
+                                <input class="input__text" id="contrasena" type="password" placeholder="CONTRASEÑA" required>
+                            </div>
+                            
+                            <div class="input__login">
+                                <input class="button__send" id="submit" type="submit" value="LOGIN" onclick="login()">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    
 </body>
 </html>
