@@ -1,15 +1,3 @@
-// pagina de login
-function login() {
-    var contrasena = document.querySelector("#contrasena").value;
-    var usuario = document.querySelector("#usuario").value;
-    console.log("Usuario: "+usuario+" "+"y su contraseña es: "+contrasena);
-}
-
-
-
-
-
-// pagina de registro
 function register(){
 
     var nombres=document.getElementById("nombres").value;
