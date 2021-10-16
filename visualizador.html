@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador</title>
+        <!--FONTS-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    
+    <!--STYLES-->
+
+    <link rel="stylesheet" href="css/styles_visualizador.css">
+
+    <!--JAVASCRIPT-->
+
+    <script src="js/js.js"></script>
+
+</head>
+<body>
+
+    <main>
+        <div class="father">
+
+            <div class="contenedor__videos">
+
+                <div class="video__principal">
+                    <iframe style="height:70rem;width:125rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+
+                <aside id="sidebar" class="sidebar__y">
+                    <div id="father__sidebar">
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid__sec">
+                            <iframe style="height:20rem;width:40rem" src="https://www.youtube.com/embed/bo9Z_pgByQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="buttons">
+                    <button onclick="showDescripcion()" class="button">Descripcion</button>
+                    <button onclick="showMultimedia()" class="button">Enlaces</button>
+                    <button onclick="quitParrafos()" class="buttonX">cerrar</button>
+                    <div id="descripcion" class="parrafo">
+                        <p>WordPress enables you to create amazing websites. But when you want to take it to the next level by adding different kinds of pages with taxonomies, custom fields, and templates that display that information you need Custom Post Types, Advanced Custom Fields, and Eleementor Pro. In this video I show you how to do that.
+                        </p>
+                    </div>
+                    <div id="multimedia" class="parrafo">
+                        <p>I will show you how to create a Custom Post Type that enables you to create a new kind of page for your website. Like a portfolio, or real estate. Movies. People. Etc. For instance, you can create a Custom Post Type called Penthouses. But within those Penthouses Pages, I can only add a title, content, Featured Images, and a category. But I want to add more information. Like the amount of space. Storage. Space. Etc.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <button class="change__class" onclick="changeClass()">Change Scrollbar X</button>
+        <button class="change__classBack" onclick="changeClassBack()">Change Scrollbar Y</button> -->
+
+    </main>
+
+    <div class="padre">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <nav class="menu">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+            <label class="menu-open-button" for="menu-open">
+                <span class="lines line-1"></span>
+                <span class="lines line-2"></span>
+                <span class="lines line-3"></span>
+            </label>
+            <a href="http://127.0.0.1:5500/login.html" class="item-del-menu-menu blue"> <i class="fa fa-anchor"></i> </a>
+            <a href="http://127.0.0.1:5500/visualizador.html" class="item-del-menu-menu blue"> <i class="fa fa-coffee"></i> </a>
+            <a href="http://127.0.0.1:5500/home.html" class="item-del-menu-menu blue"> <i class="fa fa-heart"></i> </a>
+        </nav>
+    </div>
+
+</body>
+</html>

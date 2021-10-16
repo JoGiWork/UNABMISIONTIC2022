@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-    <!--JAVASCRIPT-->
-    <script src="/css/js.js/js.js"></script>
+    
     <!--FONTS-->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
-    
+
     <!--STYLES-->
 
     <!-- <link rel="stylesheet" href="css/normalyze.css"> -->
@@ -36,7 +34,7 @@
                 </div>
 
                 <div class="contendor__register">
-                    <a class="button__register" href="#">REGISTRARME</a>
+                    <a class="button__register" href="http://127.0.0.1:5500/register.html">REGISTRARME</a>
                 </div>
 
             </div>
@@ -49,27 +47,44 @@
                     
                 <div class="login__cuadro">
                     <form class="forms__login">
-                        <fieldset class="fieldset__login" >
+                        <fieldset class="fieldset__login">
                             <div class="fieldset__input">
                                     <!--<img src="img/Recurso 13.jpg" class="img__login">-->
+                                <svg class="icon__input" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#4a4545">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
                                 <input class="input__text" id="usuario" type="text" placeholder="USUARIO" required>
                             </div>
 
                             <div class="fieldset__input">
                                     <!--<img src="img/Recurso 12.jpg" class="img__login">-->
+                                <svg class="icon__input" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#4a4545">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                </svg>
                                 <input class="input__text" id="contrasena" type="password" placeholder="CONTRASEÑA" required>
                             </div>
-                            
                             <div class="input__login">
-                                <input class="button__send" id="submit" type="submit" value="LOGIN" onclick="login()">
+                                <input class="button__send" type="submit" onclick="login()" value="LOGIN">
                             </div>
                         </fieldset>
                     </form>
                 </div>
             </div>
-
-        </div>
+            <div class="padre">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+                <nav class="menu">
+                    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                    <label class="menu-open-button" for="menu-open">
+                        <span class="lines line-1"></span>
+                        <span class="lines line-2"></span>
+                        <span class="lines line-3"></span>
+                    </label>
+                    <a href="http://127.0.0.1:5500/login.html" class="item-del-menu-menu blue"> <i class="fa fa-anchor"></i> </a>
+                    <a href="http://127.0.0.1:5500/visualizador.html" class="item-del-menu-menu blue"> <i class="fa fa-coffee"></i> </a>
+                    <a href="http://127.0.0.1:5500/home.html" class="item-del-menu-menu blue"> <i class="fa fa-heart"></i> </a>
+                </nav>
+                </div>
     </main>
-    
+    <script src="js/js.js"></script>
 </body>
 </html>
