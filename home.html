@@ -1,14 +1,133 @@
+<!--desarrollado por Juan Siciliano y Joan Torres-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/js.js"></script>
-    <link rel="stylesheet" href="css/styles_home.css">
-    <title>Home</title>
+    <title>home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="home.css">
+    <script src="js.js"></script>
+
 </head>
 <body>
-    <h1>HOLA</h1>
+
+    <header>
+        <h1>RedZaphiro</h1></header>    
+    </header>
+
+            <div class="contenedor__video">
+                <div>
+                    <a href="verParticipantes.html"><h3>EQUIPO 1</h3></a>
+                    
+                </div>
+                <section class="grid">
+                    <div class="hijo1">
+                        <!--desarrollado por Juan Siciliano y Joan Torres-->
+                        <iframe style="height:auto;width:auto" src="https://www.youtube.com/embed/clVwKynHpB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style="height:auto;width:auto" src="https://www.youtube.com/embed/elmDvqdeMKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style="height:auto;width:auto" src="https://www.youtube.com/embed/TnDCxw0y6YM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="hijo2">
+                        <iframe style="height:auto;width:auto" src="https://www.youtube.com/embed/zVleGXKgELg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style="height:auto;width:auto" src="https://www.youtube.com/embed/qInzrJ3-X-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style="height:auto;width:auto" src="https://www.youtube.com/embed/C7nuJcJriWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    </section>
+
+            </div>
+
+            <div class="contenedor__texto">
+                
+
+                <div class="section1">
+                    <div><h3 style="color: white;">SECCIÓN 1 - ¿Por qué me mata la pereza?</h3>
+                            <div  style="width:auto ; align-content: center;">
+                            
+                                <p style="text-align: justify; color: white; height: auto;">
+                                    ¿Cómo vencer la pereza a la hora de ponerte a estudiar?
+                                    Todos, en alguna ocasión, hemos dejado nuestras obligaciones para el último momento. 
+                                    Este hábito se llama ‘procrastinación’ y es tan común como peligroso para el estudio.
+                                    
+                                
+                                </p>
+
+                            </div>
+
+                            <div>
+                                <a href="https://www.heraldo.es/noticias/sociedad/2019/03/23/como-vencer-la-pereza-a-la-hora-de-ponerte-a-estudiar-1305000.html"><input class="vermas" type="button" name="VER_MÁS" id="vermas" value="VER MÁS"></a>
+                                
+                            </div>
+
+                        </div>
+                    
+                        <div class="hijo2_section1">
+                            <img class="imagenENSection" src="img_section1.png" alt="img_section1">
+                        </div>
+
+                </div>
+
+
+            
+                <div class="section2" style="text-align:left; padding-left: .5em; margin: 3%">
+
+                    <div class="hijo2_section2">
+                        <img class="imagenENSection" src="img_section2.png" alt="img_section2">
+                    </div>
+                    
+                    <div><h3 style="color: white;">SECCIÓN 2 - ¿Cómo permanecer enfocado mientras se estudia?</h3>
+                            <div  style="width:auto ; align-content: center;">
+                            
+                                <p style="text-align: justify; color: white; height: auto;">
+                                 
+                                    Averiguar cómo mantener la concentración mientras se estudia es un reto al
+                                    que todos nos enfrentamos. Conoce técnicas que pueden ayudarte a minimizar el
+                                    estrés del estudio y a mantenerte centrado en lo que importa.
+                                
+                                </p>
+
+                            </div>
+
+                            <div class="hijo2_section2">
+                                <a href="https://freedom.to/blog/how-to-stay-focused-studying/"><input class="vermas" type="button" name="VER_MÁS" id="vermas" value="VER MÁS"></a>
+                                
+                            </div>
+
+                        </div>
+                    
+                        
+
+                </div>
+                    
+            
+            
+            </div>
+
+
+            <div class="padre">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+                <nav class="menu">
+                    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                    <label class="menu-open-button" for="menu-open">
+                        <span class="lines line-1"></span>
+                        <span class="lines line-2"></span>
+                        <span class="lines line-3"></span>
+                    </label>
+                    <a href="login.html" class="item-del-menu-menu blue"> <i class="fa fa-anchor"></i> </a>
+                    <a href="visualizador.html" class="item-del-menu-menu blue"> <i class="fa fa-file-video-o"></i> </a>
+                    <a href="home.html" class="item-del-menu-menu blue"> <i class="fa fa-home"></i> </a>
+                </nav>
+                
+            </div>
+
+        </section>
+
+      
+
 </body>
 </html>
