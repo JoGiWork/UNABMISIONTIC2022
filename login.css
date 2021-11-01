@@ -7,7 +7,7 @@
     --negro: #000000;
     --blanco: #FFFFFF;
     --blancoTransparente: rgba( 255, 255, 255, .7 );
- }
+}
 
 html {
     box-sizing: border-box;
@@ -23,12 +23,12 @@ body {
     width: 100%;
     background-size: cover;
     background-image: url(https://landingpagescol.com/wp-content/uploads/2021/10/Recurso-10.jpg);
+    height: 90vh;
+    max-height: 90vh;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow:hidden;
 }
 
-
-/*GLOBALES*/
 
 a {
     text-decoration: none;
@@ -55,7 +55,7 @@ img {
     max-width: 100%;
 }
 
-/*Titulos*/
+
 
 .titulo__regular{
     font-weight: 400;
@@ -64,23 +64,20 @@ img {
     font-weight: 700;
 }
 
-/*DISPOSICION*/
 
 .padre {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr;
-    height: 100vh;
-    margin-top: -5%;
+    
 }
 div.hijo1:nth-child(1) {
     background: var(--blancoTransparente);
-    margin: 15% 25%;
+    margin: 5% 25%;
     border-radius: 2rem;
     width: 60%;
     text-align: center;
 }
-
 
 .hijo1 {
     padding: 2rem;
@@ -88,11 +85,6 @@ div.hijo1:nth-child(1) {
     flex-direction: column;
     align-items: left;
 }
-
-div.hijo{
-    margin-top:-80px;
-}
-
 
 .titulo__regular {
     line-height: 7rem;
@@ -108,30 +100,29 @@ div.hijo{
 
 
 
-/*ESTILOS*/
 
-.register__cuadro {
+
+.login__cuadro {
     background-color: var(--azulClarito);
     border-radius: 1rem;
     padding: 2rem;
     border-radius: 2rem;
     padding-top: 8rem;
-    width: 50%;
-    margin: 10% 20%;
+    width: 40%;
+    margin: 10% 25%;
     display: flex;
     justify-content: center;
 }
 
 
-.input__register {
-    padding-top: 2rem;
+.input__login {
+    padding-top: 4rem;
     width: 100%;
-    margin: 0 auto;
 }
 
 .button__send {
     width: 100%;
-    border:none;
+    border: none;
     background-color: #0E6BA8;
     border-radius: .5rem;
     font-family: var(--fuenteTitulos);
@@ -150,7 +141,7 @@ div.hijo{
     font-size: 2.5rem;
 }
 
-.forms__register fieldset {
+.forms__login fieldset {
     border: none;
 }
 
@@ -169,7 +160,7 @@ div.hijo{
     margin-bottom: 1rem;
 }
 
-/*ICONS*/
+
 
 .icon1 {
     background-color: var(--colorPrimario);
@@ -177,14 +168,13 @@ div.hijo{
     height: 10rem;
     border-radius: 50%;
     padding: 2rem;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 .icon-container {
     position: relative;
     right: -40%;
-    top: 20%;
-    height: auto;
+    top: 25%;
 }
 
 .icon__input {
@@ -196,8 +186,6 @@ div.hijo{
     padding-bottom: .5rem;
 }
 
-/* INICIO ESTILOS MENÚ */
-                
                 
 a {
     color: inherit;
@@ -205,7 +193,7 @@ a {
 .padre2{
     width: 20%;
     height: 20%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
 }
 .item-del-menu-menu,
 .menu-open-button {
@@ -279,14 +267,14 @@ a {
 
 .menu {
     position: relative;
+    margin-left: 5%;
+    margin-top: -46%;
+    width: 80px;
     text-align: center;
     box-sizing: border-box;
     font-size: 26px;
-    margin-left: 3%;
-    margin-top: -36%;
-    width: 80px;
+    
 }
-
 
 .item-del-menu-menu:hover {
     background: #EEEEEE;
@@ -353,7 +341,7 @@ a {
     -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
     transform: scale(0.8, 0.8) translate3d(0, 0, 0);
 }
-/*desarrollado por Juan Siciliano y Joan Torres-->*/
+
 .menu-open:checked~.item-del-menu-menu {
     -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
     transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
@@ -426,7 +414,7 @@ a {
     text-align: right;
     color: #EEEEEE;
 }
-
+/*desarrollado por Juan Siciliano y Joan Torres*/
 .credit a {
     padding: 8px 0;
     color: #152B65;
@@ -437,4 +425,3 @@ a {
 .credit a:hover {
     text-decoration: underline;
 }
-/* FIN ESTILOS MENÚ */
